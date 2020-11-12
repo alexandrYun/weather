@@ -35,6 +35,9 @@ form.onsubmit = (e) => {
         } else if (json.weather[0].main == 'Snow') {
             display.classList.remove(...display.classList);
             display.classList.add('display', 'display_snow');
+        } else if (json.weather[0].main == 'Mist') {
+            display.classList.remove(...display.classList);
+            display.classList.add('display', 'display_mist');
         } else {
             display.classList.remove(...display.classList);
             display.classList.add('display');

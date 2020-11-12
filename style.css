@@ -114,3 +114,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.display_mist {
+    background-image: url(img/mist.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
