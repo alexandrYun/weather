@@ -32,6 +32,12 @@ form.onsubmit = (e) => {
         } else if (json.weather[0].main == 'Clouds') {
             display.classList.remove(...display.classList);
             display.classList.add('display', 'display_cloudy');
+        } else if (json.weather[0].main == 'Snow') {
+            display.classList.remove(...display.classList);
+            display.classList.add('display', 'display_snow');
+        } else {
+            display.classList.remove(...display.classList);
+            display.classList.add('display');
         }
     })
 }

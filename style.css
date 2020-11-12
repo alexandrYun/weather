@@ -109,3 +109,8 @@
     background-repeat: no-repeat;
 }
 
+.display_snow {
+    background-image: url(img/snow.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
